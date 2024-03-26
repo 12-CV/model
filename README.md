@@ -6,6 +6,8 @@
 
 ![거리출력](https://github.com/12-CV/model/assets/90448406/e385be39-ed12-45ba-b011-af73849c72ef)
 
+<img src="https://github.com/12-CV/model/assets/90448406/ac8bb055-fcfb-481b-ad21-4314c14affd7" alt="img" style="width:530px;">
+
 
 ### Used Model 
 - [Depth-Anything](https://github.com/LiheYoung/Depth-Anything)
