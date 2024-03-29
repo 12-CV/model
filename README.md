@@ -41,8 +41,23 @@ Depth-Anything 폴더에 calc_depth.py와 calc_func.py 파일을 위치시킨다
 
    ![final_graph](https://github.com/12-CV/model/assets/90448406/86e7a607-542b-4c17-9d81-fc25edcb1a18)
 
-### 코드 설명
+## Metric
+$$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 = 0.3071$$
 
+## ETC
+https://huggingface.co/spaces/stevengrove/YOLO-World
+
+해당 사이트를 통해 Prompt를 직접 조정하여 모델을 export 할 수 있음
+
+---
+
+# 단안 카메라 충돌 방지 관련 metric 계산
+
+### Used Model 
+- [Depth-Anything](https://github.com/LiheYoung/Depth-Anything)
+- [YOLO-World](https://github.com/AILab-CVC/YOLO-World)
+
+### 코드 명
 - inference.py
    - 모델을 돌려 각종 모델 예측 값들을 json 파일로 저장하는 코드
 - youtube_result.json
@@ -53,12 +68,4 @@ Depth-Anything 폴더에 calc_depth.py와 calc_func.py 파일을 위치시킨다
    - 결과를 Box Plot, Violin Plot로 추출
 - 주의
    - model 추가되지 않았으므로 back 레포에서 두개의 onnx 파일 추가 필요
-
-## Metric
-$$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 = 0.3071$$
-
-## ETC
-https://huggingface.co/spaces/stevengrove/YOLO-World
-
-해당 사이트를 통해 Prompt를 직접 조정하여 모델을 export 할 수 있음
 
