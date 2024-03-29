@@ -28,7 +28,7 @@
 git clone https://github.com/LiheYoung/Depth-Anything
 cd Depth-Anything
 ```
-Depth-Anything 폴더에 calc_depth.py와 calc_func.py 파일을 위치시킨다.
+Depth-Anything 폴더에 distance 폴더 내부에 있는 calc_depth.py와 calc_func.py 파일을 위치시킨다.
 
 ### 실제 거리 출력 방법
 
